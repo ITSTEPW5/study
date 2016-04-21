@@ -21,3 +21,8 @@ gulp.task('css', function() {
   		.pipe(concat('vendor.css'))
   		.pipe(gulp.dest('assets/css'));
 });
+
+gulp.task('default', function() {
+	gulp.start('css');
+	gulp.start('js');
+});
