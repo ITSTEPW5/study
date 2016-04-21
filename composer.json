@@ -1,0 +1,10 @@
+{
+    "name": "itstepweb5/study",
+    "description": "Test composer features",
+    "license": "MIT",
+    "require": {},
+    "require-dev": {
+        "fzaninotto/faker": "^1.5",
+        "nesbot/carbon": "^1.21"
+    }
+}
