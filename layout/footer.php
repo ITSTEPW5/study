@@ -1,11 +1,13 @@
-<div class="footer">   
-<!-- Vendor scripts -->
+		<div class="footer">   
+			<div class="container">
+				<h3>Footer</h3>
+			</div>
+		</div>
+		
+		<!-- Vendor scripts -->
 		<script src="assets/vendor/vendor.js"></script>
-	
-	
+		
 		<!-- Aplication scripts -->
-		<script src="assets/js/script.js"></script>
-</div>
-
+		<!-- <script src="assets/js/script.js"></script> -->
 	</body>
 </html>
