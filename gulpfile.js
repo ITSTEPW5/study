@@ -2,12 +2,22 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 
 gulp.task('js', function() {
-  gulp.src('assets/vendor/bootstrap/js/*.js')
-  .pipe(concat('app.js'))
-  .pipe(gulp.dest('js'));
+	var js = [
+		'assets/vendor/jquery/jquery-2.2.3.min.js'
+		'assets/vendor/bootstrap/js/bootstrap.min.js'
+		'assets/vendor/sweetalert/dist/sweetalert.min.js'
+	];
+  	gulp.src(js)
+  		.pipe(concat('vendor.js'))
+  		.pipe(gulp.dest('assets/js'));
 });
+
 gulp.task('css', function() {
-  gulp.src('assets/vendor/bootstrap/css/*.css')
-  .pipe(concat('app.css'))
-  .pipe(gulp.dest('css'));
+	var css = [
+		'assets/vendor/bootstrap/css/bootstrap.min.css'
+		'assets/vendor/sweetalert/dist/sweetalert.css'
+	];		
+  	gulp.src(css)
+  		.pipe(concat('vendor.css'))
+  		.pipe(gulp.dest('assets/css'));
 });
