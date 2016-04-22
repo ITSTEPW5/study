@@ -5,7 +5,7 @@
 		</div>
 		
 		<!-- Vendor scripts -->
-		<script src="assets/vendor/vendor.js"></script>
+		<script src="assets/js/vendor.js"></script>
 		
 		<!-- Aplication scripts -->
 		<!-- <script src="assets/js/script.js"></script> -->

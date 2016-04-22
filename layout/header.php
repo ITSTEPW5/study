@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -11,7 +11,7 @@
 		<link href="assets/css/vendor.css" rel="stylesheet">
 
 		<!-- Aplication styles -->
-		<!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+		<link href="assets/css/style.css" rel="stylesheet">
 
 	</head>
 	<body>
@@ -27,7 +27,7 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand" href="#">ITSTEPW5</a>
+				      <a class="navbar-brand" href="#"><img src="/assets/img/logo.png"></a>
 				    </div>
 
 				    <!-- Collect the nav links, forms, and other content for toggling -->
