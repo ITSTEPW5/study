@@ -1,4 +1,4 @@
 /node_modules
 /vendor
-/assets/css
-/assets/js
+/assets/css/vendor.css
+/assets/js/vendor.js
